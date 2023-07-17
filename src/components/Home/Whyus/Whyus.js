@@ -47,7 +47,8 @@ const Whyus = () => {
                                     <Card sx={{
                                         maxWidth: 345, transition: '0.5s all ease-in-out', mb: 2, ':hover': {
                                             boxShadow: 10,
-                                            color: '#e91e63'
+                                            color: '#fff',
+                                            backgroundColor: '#f6c60d',
                                         }
                                         , 'img': { transition: '0.5s all ease-in-out' },
                                         ':hover img': {
