@@ -1,67 +1,96 @@
+
+
 {
 	"services": [
 		{
 			"id": 1,
 			"class": "",
-			"treatment": "Cardiology",
-			"price": 15000,
-			"description": "Keeping your heart strong and healthy is crucial to your overall well-being. Our cardiology services are here to help you manage and treat your heart health no matter what you might need.",
-			"icon": "https://i.ibb.co/DpVdYqQ/heart-2.png",
-			"service_img": "https://i.ibb.co/rG0TSwX/01.jpg"
+			"treatment": "Cataract Surgery",
+			"price": 200,
+			"description": "Expert surgeon specializing in cataract removal and lens implantation.",
+			"icon": "https://magruderlaservision.com/wp-content/uploads/2021/05/Advanced-Laser-Cataract-Surgery.jpg",
+			"service_img": "https://centerforsight.net/wp-content/uploads/2022/06/Untitled-design-min-1-1024x672.png"
 		},
 		{
 			"id": 2,
 			"class": "animation",
-			"treatment": "Neurology",
-			"price": 25000,
-			"description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
-			"icon": "https://i.ibb.co/nzHc2t7/brain-2.png",
-			"service_img": "https://i.ibb.co/Bn2GG0N/06.jpg"
+			"treatment": "LASIK Surgery",
+			"price": 350,
+			"description": "Experienced LASIK surgeon providing laser vision correction for nearsightedness, farsightedness, and astigmatism.",
+			"icon": "https://img1.wsimg.com/isteam/stock/kV947ky/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365",
+			"service_img": "https://content.health.harvard.edu/wp-content/uploads/2021/10/0411d87a-8caa-4a36-b9e1-17eb6db566e3.jpg"
 		},
 		{
 			"id": 3,
 			"class": "",
-			"treatment": "Stomach",
-			"price": 3000,
-			"description": "What is the stomach? The stomach is a J-shaped organ that digests food. It produces enzymes (substances that create chemical reactions) and acids (digestive juices). This mix of enzymes and digestive juices breaks down food so it can pass to your small intestine. Your stomach is part of the gastrointestinal (GI) tract.",
-			"icon": "https://i.ibb.co/Ks1jsVf/stomach-2.png",
-			"service_img": "https://i.ibb.co/CK7Y2DD/03.jpg"
+			"treatment": "Glaucoma Treatment",
+			"price": 150,
+			"description": "Specialist in diagnosing and managing glaucoma, offering various treatment options.",
+			"icon": "https://daviseyeclinic.com/wp-content/uploads/glaucoma-1.jpg",
+			"service_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-viR9dFGH4Kh814w8pJGX1GPZ8FFKMID4Yw&usqp=CAU"
 		},
 		{
 			"id": 4,
 			"class": "",
-			"treatment": "Covid 19",
-			"price": 100,
-			"description": "Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.",
-			"icon": "https://i.ibb.co/NWKjgmj/virus-2.png",
-			"service_img": "https://i.ibb.co/3FS3B8h/08.jpg"
+			"treatment": "Retinal Surgery",
+			"price": 400,
+			"description": "Expert in retinal surgeries including retinal detachment repair and macular hole surgery.",
+			"icon": "https://static.wixstatic.com/media/a254d9_9e74d78539f3478c94baf289bf8ceacf.jpg/v1/fill/w_504,h_463,al_c,lg_1,q_80,enc_auto/a254d9_9e74d78539f3478c94baf289bf8ceacf.jpg",
+			"service_img": "https://www.austinretina.com/media/pages/blog/what-surgical-procedures-does-a-retina-surgeon-perform/da66e027fd-1669215083/ara-2.png"
 		},
 		{
 			"id": 5,
 			"class": "animation",
-			"treatment": "Lungs",
-			"price": 9000,
-			"description": "The lungs are a pair of spongy, air-filled organs located on either side of the chest (thorax). The trachea (windpipe) conducts inhaled air into the lungs through its tubular branches, called bronchi. The bronchi then divide into smaller and smaller branches (bronchioles), finally becoming microscopic.",
-			"icon": "https://i.ibb.co/w0Mh2Jf/lungs.png",
-			"service_img": "https://i.ibb.co/q9SM3XT/10.jpg"
+			"treatment": "Corneal Transplant",
+			"price": 500,
+			"description": "Skilled corneal surgeon providing corneal transplant surgeries for patients with corneal diseases.",
+			"icon": "https://www.huffmanandhuffman.com/wp-content/uploads/corneal-transplant.jpg",
+			"service_img": "https://mmc-main-website.azurewebsites.net/wp-content/uploads/2022/01/1000-10.jpg"
 		},
 		{
 			"id": 6,
 			"class": "",
-			"treatment": "Bronchus",
-			"price": 1800,
-			"description": "(BRON-kus) A large airway that leads from the trachea (windpipe) to a lung. The plural of bronchus is bronchi. Enlarge. Anatomy of the respiratory system, showing the trachea and both lungs and their lobes and airways.",
-			"icon": "https://i.ibb.co/yyPd0N8/bronchus.png",
-			"service_img": "https://i.ibb.co/dDsVnnZ/09.jpg"
+			"treatment": "Pediatric Ophthalmology",
+			"price": 250,
+			"description": "Specializing in the diagnosis and treatment of eye disorders in children and infants.",
+			"icon": "https://images.squarespace-cdn.com/content/v1/58c7f0641b10e32dd8e9c08b/f1fe8ce1-ba91-408f-a2bb-cb4965fb7a89/eye.png",
+			"service_img": "https://www.familyeyephysicians.com/wp-content/uploads/2020/01/pediatric-ophthalmology.png"
 		},
 		{
 			"id": 7,
 			"class": "",
-			"treatment": "Vaccine",
-			"price": 0,
-			"description": "Safe and effective vaccines are available that provide strong protection against serious illness, hospitalization and death from COVID-19. Billions of people have been vaccinated against COVID-19. Getting vaccinated is one of the most important things you can do to protect yourself against COVID-19, help end the pandemic and stop new variants emerging. Take all COVID-19 vaccine doses recommended to you by your health authority as soon as it is your turn, including a booster dose if recommended.",
-			"icon": "https://i.ibb.co/NWKjgmj/virus-2.png",
-			"service_img": "https://i.ibb.co/02FMz1F/02.jpg"
+			"treatment": "Refractive Lens Exchange",
+			"price": 450,
+			"description": "Expert surgeon offering refractive lens exchange procedures for patients seeking clear vision.",
+			"icon": "https://oculase.com/wp-content/uploads/2021/01/laser-large.png",
+			"service_img": "https://wp04-media.cdn.ihealthspot.com/wp-content/uploads/sites/387/2022/10/IH_MIE_Interior_Refractive-Lens-Exchange.jpg"
+		},
+		{
+			"id": 8,
+			"class": "animation",
+			"treatment": "Dry Eye Treatment",
+			"price": 100,
+			"description": "Specialist in diagnosing and treating dry eye syndrome using advanced therapies.",
+			"icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJM8_qV9Lpk6ra8acAhiD8kUhwh-ZkLyhGQA&usqp=CAU",
+			"service_img": "https://rjkoptometry.com.au/wp-content/uploads/2021/05/Dry-Eye-treatment-at-RJK-Optometrists.jpeg"
+		},
+		{
+			"id": 9,
+			"class": "",
+			"treatment": "Ocular Prosthetics",
+			"price": 300,
+			"description": "Expert in creating custom ocular prosthetics for patients who have lost an eye.",
+			"icon": "https://image.jimcdn.com/app/cms/image/transf/dimension=236x10000:format=jpg/path/s2f54f8aee0a4fa80/image/i76625f3526f52b21/version/1448910072/image.jpg",
+			"service_img": "https://www.vijaydentalhospitals.com/images/OCULAR-PROSTHES%C4%B0S.png"
+		},
+		{
+			"id": 10,
+			"class": "",
+			"treatment": "Strabismus Surgery",
+			"price": 350,
+			"description": "Specialist in correcting eye misalignment through surgical procedures.",
+			"icon": "https://uploads-ssl.webflow.com/6242050754c907550b9ea7be/63a4784a7991055d859ce6cf_4_Is%20Strabismus%20Surgery%20Serious.png",
+			"service_img": "https://images.pond5.com/surgery-team-making-strabismus-surgery-footage-149112197_prevstill.jpeg"
 		}
 	]
 }

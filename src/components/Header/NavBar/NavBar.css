@@ -1,15 +1,15 @@
 .text-style {
     text-decoration: none;
-    color: #212121;
+    color: #fff;
 }
 
 .text-style:hover {
     text-decoration: none;
-    color: #d81b60;
+    color: #f6c60d;
 }
 
 /* .text-style-fullscrn {
-    background-color: #f48fb1;
+    background-color: #f6c60d;
 } */
 
 .text-style-fullscrn:hover {

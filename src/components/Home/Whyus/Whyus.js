@@ -25,7 +25,7 @@ const Whyus = () => {
     return (
 
 
-        <Box sx={{ bgcolor: '#fce4ec', color: 'primary.main', p: 2, mb: 2, textAlign: "center" }}>
+        <Box sx={{ bgcolor: '#007bff', color: '#fff', p: 2, mb: 2, textAlign: "center" }}>
             <Container maxWidth="xl">
                 <Typography sx={{ mt: 2, mb: 2, fontWeight: 600 }}
                     variant='h6'
@@ -76,7 +76,7 @@ const Whyus = () => {
                                         </CardActionArea>
                                         <CardActions>
                                             <Typography sx={{ mx: 2, p: 2, textAlign: "end" }} >
-                                                <Link className='text-style' to="/services" color="primary">
+                                                <Link className='text-style' to="/services" style={{color:'black' }}>   
                                                     See More Details...
                                                 </Link>
                                             </Typography>
@@ -92,7 +92,7 @@ const Whyus = () => {
                     </Grid>}
 
                 <Typography sx={{ mx: 2, p: 2, textAlign: "end" }} >
-                    <HashLink smooth to="/services#services" className='text-style' color="primary">
+                    <HashLink smooth to="/services#services" className='text-style'>
                         See All services
                     </HashLink>
                 </Typography>
