@@ -36,17 +36,17 @@ const Banner = () => {
         {
             name: "You are just one click away from your healthy life",
             description: "Probably the most random thing you have ever seen!",
-            img: "https://img.freepik.com/free-photo/close-up-doctor-is-showing-medical-analytics-data_33799-4417.jpg?w=996"
+            img: "https://img.freepik.com/free-photo/man-having-eye-sight-check-ophthalmology-clinic_23-2149082461.jpg?w=2000"
         },
         {
             name: "Consult with experts Online 24/7",
             description: "Get Online support from oue expert Doctor 24/7 and lead a healthy life",
-            img: "https://img.freepik.com/free-photo/make-appointment-see-doctor-online-diagnosis-treatmentfamily-health-care_537132-1364.jpg?w=996"
+            img: "https://helpmesee.org/wp-content/uploads/2021/06/HelpMeSee-Eye-Hospital-of-Wenzhou-Medical-University.png"
         },
         {
             name: "Check Your Health Condition Regularly",
             description: "Upto date with your health condition prevention is always better than cure",
-            img: "https://img.freepik.com/free-photo/young-male-psysician-with-patient-measuring-blood-pressure_1303-17879.jpg?t=st=1651807889~exp=1651808489~hmac=72e2292253947f9900d3250347f844e08a169fc70d5fb64d4cf51674000033fa&w=996"
+            img: "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/PBOXADJYKBA7LDUOHFBWEWLNE4.jpg"
         }
     ]
     return (
