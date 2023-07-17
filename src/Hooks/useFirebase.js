@@ -69,7 +69,7 @@ const useFirebase = () => {
         }
         //password regex test
         if (!/(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/.test(password)) {
-            setError('Password should be minimum 6 characters, at least one letter and one number');
+            setError('Password should be minimum 6 characters, at least one capital letter and one number');
             return;
         }
         isLogin ? loginRegisterUser(mail, password) : registeruser(mail, password);

@@ -19,7 +19,7 @@
 .rhombus:before {
     content: "";
     position: absolute;
-    background: #EA4C89;
+    background: #007bff;
     height: 40px;
     width: 40px;
     z-index: 0;
@@ -31,7 +31,7 @@
 .rhombus .circle1 {
     content: "";
     position: absolute;
-    background: #EA4C89;
+    background: #007bff;
     height: 40px;
     width: 40px;
     z-index: 1;
@@ -45,7 +45,7 @@
 .rhombus .circle2 {
     content: "";
     position: absolute;
-    background: #EA4C89;
+    background: #007bff;
     height: 40px;
     width: 40px;
     z-index: 1;

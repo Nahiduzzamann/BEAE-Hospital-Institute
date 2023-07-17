@@ -21,7 +21,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Register = () => {
 
-    const { user, singInUsingGoogle, singInUsingFacebook, singInUsingGithub, handleConfirmPass, handleRegister, handleUserName, handleEmail, handlePass, error, toggleLogin } = useAuth();
+    const { user, singInUsingGoogle, handleConfirmPass, handleRegister, handleUserName, handleEmail, handlePass, error, toggleLogin } = useAuth();
 
     return (
         <Container component="main" maxWidth="xs">
@@ -123,6 +123,7 @@ const Register = () => {
                                 fullWidth
                                 variant="contained"
                                 sx={{ mt: 3, mb: 2 }}
+                                style={{ color: '#fff' }}
                             >
                                 Register
                             </Button>
@@ -146,18 +147,18 @@ const Register = () => {
                             </Grid>
                             <Grid container sx={{ mb: 3 }} justifyContent="flex-end">
                                 {/* Facebook btn */}
-                                <Grid item>
+                                {/* <Grid item>
                                     <Button onClick={singInUsingFacebook} variant="contained"
                                         sx={{ p: 1, bgcolor: '#4267B2' }}>
                                         <FacebookIcon />Facebook</Button>
-                                </Grid>
-                                <Typography textAlign="center" sx={{ p: 2 }}>Or</Typography>
+                                </Grid> */}
+                                {/* <Typography textAlign="center" sx={{ p: 2 }}>Or</Typography> */}
                                 {/* GitHUB btn */}
-                                <Grid item>
+                                {/* <Grid item>
                                     <Button onClick={singInUsingGithub} variant="contained"
                                         sx={{ p: 1, mb: 2, bgcolor: '#171515' }}>
                                         <GitHubIcon /> GitHub</Button>
-                                </Grid>
+                                </Grid> */}
                             </Grid>
                         </Box>
                     </Box>

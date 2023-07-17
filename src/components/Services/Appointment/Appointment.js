@@ -87,7 +87,7 @@ const Appointment = () => {
 
                 <TextField sx={{ mt: 2, mb: 2 }} fullWidth label="Problem type" id="fullWidth" />
 
-                <Button sx={{ p: 1, mt: 2, mb: 5 }} onClick={swalAlert} fullWidth
+                <Button style={{color:'#fff'}} sx={{ p: 1, mt: 2, mb: 5 }} onClick={swalAlert} fullWidth
                     variant="contained"><AddCircleIcon /> Confirm</Button>
             </Container>
         </Box>

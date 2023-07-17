@@ -132,8 +132,9 @@ const Login = () => {
                                         fullWidth
                                         variant="contained"
                                         sx={{ mt: 3, mb: 2 }}
+                                        style={{color: '#Fff'}}
                                     >
-                                        <Fingerprint /> Login
+                                        <Fingerprint/> Login
                                     </Button>
 
                                 </Box>
@@ -150,7 +151,7 @@ const Login = () => {
                                 {/* google btn */}
                                 <Grid container sx={{ mt: 2, mb: 3 }} justifyContent="flex-end">
                                     <Grid item>
-                                        <GoogleButton className='google-btn'
+                                        <GoogleButton className='google-btn '
                                             type="dark" // can be light or dark
                                             onClick={handleGoogleSignIn}
                                         />
@@ -159,18 +160,18 @@ const Login = () => {
 
                                 <Grid container sx={{ mb: 3 }} justifyContent="flex-end">
                                     {/* Facebook btn */}
-                                    <Grid item>
+                                    {/* <Grid item>
                                         <Button onClick={handleFacebooksignIn} variant="contained"
                                             sx={{ p: 1, bgcolor: '#4267B2' }}>
                                             <FacebookIcon />Facebook</Button>
-                                    </Grid>
-                                    <Typography textAlign="center" sx={{ p: 2 }}>Or</Typography>
+                                    </Grid> */}
+                                    {/* <Typography textAlign="center" sx={{ p: 2 }}>Or</Typography> */}
                                     {/* GitHUB btn */}
-                                    <Grid item>
+                                    {/* <Grid item>
                                         <Button onClick={handleGithubSignIn} variant="contained"
                                             sx={{ p: 1, mb: 2, bgcolor: '#171515' }}>
                                             <GitHubIcon /> GitHub</Button>
-                                    </Grid>
+                                    </Grid> */}
                                 </Grid>
                             </Box>
                         </Container>
