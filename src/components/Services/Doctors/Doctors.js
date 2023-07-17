@@ -23,10 +23,10 @@ const Doctors = () => {
     return (
         <div id='doctors'>
             {doctors[0].length > 1 ? <>
-                <Box sx={{ bgcolor: '#fce4ec', color: 'primary.main', p: 2, mb: 2, mt: 6, textAlign: "center" }}>
+                <Box sx={{ bgcolor: '#fff', color: 'primary.main', p: 2, mb: 2, mt: 6, textAlign: "center" }}>
                     <Container maxWidth="xl">
                         <Typography sx={{ mt: 2, mb: 2, fontWeight: 600 }}
-                            variant='h5'
+                            variant='h4'
                         >Our team always ready to assist you
                         </Typography>
 
@@ -36,9 +36,11 @@ const Doctors = () => {
                                     <Grid key={doctor.doc_id} item xs={12} sm={6} md={4} lg={3} sx={{ mx: 'auto' }}>
                                         <Card sx={{
                                             mx: 'auto',
+                                            padding: '20px',
                                             boxShadow: 10,
                                             maxWidth: 345, transition: '0.5s all ease-in-out', ':hover': {
-                                                color: '#e91e63',
+                                                backgroundColor: '#f6c60d',
+                                                color: '#fff',
                                                 boxShadow: 1
                                             }
                                             , 'img': { transition: '0.5s all ease-in-out' },
@@ -67,7 +69,9 @@ const Doctors = () => {
                                                 </Typography>
                                             </CardActionArea>
                                             <CardActions sx={{ textAlign: "center" }}>
-                                                <Button onClick={swalAlert} sx={{ mt: 2, mb: 1 }} variant="contained" className="CheckButton">
+                                                <Button onClick={swalAlert} sx={{ mt: 2, mb: 1 }} variant="contained" className="CheckButton"
+                                                
+                                                >
                                                     Make an Appointment
                                                     <AddCircleIcon />
                                                 </Button>

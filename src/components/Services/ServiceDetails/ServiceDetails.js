@@ -25,15 +25,15 @@ const ServiceDetails = () => {
     }, [services]);
 
     return (
-        <Box sx={{ bgcolor: '#fce4ec', color: 'primary.main', p: 2, mb: 2, textAlign: "center" }}>
+        <Box sx={{ bgcolor: '#fff', color: 'primary.main', p: 2, mb: 2, textAlign: "center" }}>
             <Container maxWidth="xl">
                 <Typography sx={{ mt: 2, mb: 2, fontWeight: 600 }}
-                    variant='h6'
+                    variant='h5'
                 >Why Choose Our Medical
                 </Typography>
 
-                <Typography sx={{ mb: 8, fontWeight: 600 }}
-                    variant='h5'
+                <Typography sx={{ mb: 4, fontWeight: 600 }}
+                    variant='h4'
                 >Breakthrough in Comprehensive, Flexible Care Delivery Models
                 </Typography>
 
@@ -46,7 +46,9 @@ const ServiceDetails = () => {
                                 <Card sx={{
                                     mx: 'auto',
                                     maxWidth: 550, transition: '0.5s all ease-in-out', ':hover': {
-                                        boxShadow: 10
+                                        boxShadow: 10,
+                                        backgroundColor:'#f6c60d',
+                                            color: '#fff',
                                     }
                                     , 'img': { transition: '0.5s all ease-in-out' },
                                     ':hover img': {
@@ -57,18 +59,18 @@ const ServiceDetails = () => {
                                         <CardMedia
                                             component="img"
                                             width="100%"
-                                            height="550px"
+                                            height="400px"
                                             image={service?.service_img}
                                             alt="card image of service"
                                         />
-                                        <CardContent sx={{ display: 'flex' }}>
+                                        <CardContent sx={{ display: 'flex' , alignItems:'center', marginTop:4}}>
                                             <Avatar
                                                 width='50px'
                                                 hight='50px'
                                                 alt="service icon"
                                                 src={service?.icon}
                                                 sx={{
-                                                    width: 40, height: 40
+                                                    width: 40, height: 40, marginRight:1
                                                 }}
                                             />
                                             <Typography variant="h5" component="div">
@@ -78,7 +80,7 @@ const ServiceDetails = () => {
                                     </CardActionArea>
                                     <CardActions>
 
-                                        <Typography sx={{ p: 2 }} align="justify" gutterBottom variant="p" component="div">
+                                        <Typography sx={{ p: 1, fontSize:20 }} align="justify" gutterBottom variant="p" component="div">
                                             {service.description}
                                         </Typography>
                                     </CardActions>

@@ -20,12 +20,12 @@ const Services = () => {
         <Box id='services' sx={{
             display: 'flex',
             flexDirection: 'column',
-            minHeight: '100vh', bgcolor: '#fce4ec', color: 'primary.main', p: 2, mb: 2, mt: 6, textAlign: "center"
+            minHeight: '100vh', bgcolor: '#fff', color: 'primary.main', p: 2, mb: 2, mt: 6, textAlign: "center"
         }}>
             {services[0].length > 1 ?
                 <Container maxWidth="xl">
                     <Typography sx={{ mt: 2, mb: 2, fontWeight: 600 }}
-                        variant='h6'
+                        variant='h4'
                     >Our Services
                     </Typography>
 
@@ -35,9 +35,11 @@ const Services = () => {
                                 <Grid key={service.id} item xs={12} sm={6} md={6} lg={4}>
                                     <Card sx={{
                                         mx: 'auto',
+                                        padding:'20px',
                                         maxWidth: 345, transition: '0.5s all ease-in-out', ':hover': {
                                             boxShadow: 10,
-                                            color: '#e91e63'
+                                            backgroundColor:'#f6c60d',
+                                            color: '#fff',
                                         }
                                         , 'img': { transition: '0.5s all ease-in-out' },
                                         ':hover img': {
@@ -54,7 +56,7 @@ const Services = () => {
                                             <CardContent sx={{ display: 'flex', flexWrap: 'wrap', mx: 'auto', my: 2 }}>
                                                 <CardMedia
                                                     component="img"
-                                                    sx={{ width: 40, mr: 1, mx: 'auto' }}
+                                                    sx={{ width: 40,borderRadius:'100%', mr: 1, mx: 'auto' }}
                                                     image={service?.icon}
                                                     alt="service icon"
                                                 />
