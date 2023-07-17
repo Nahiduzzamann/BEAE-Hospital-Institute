@@ -1,58 +1,85 @@
 {
-    "docs": [
+    "docs":[
         {
-            "doc_id": 1,
-            "name": "Lee S. Williamson",
-            "specialize": "Cardiology",
-            "doc_img": "https://i.ibb.co/b6SDFTN/01.jpg"
+          "doc_id": 1,
+          "name": "Dr. John Smith",
+          "specialize": "Cataract Surgery",
+          "appointmentPrice": 200,
+          "doctorDescription": "Dr. John Smith is a highly skilled surgeon specializing in cataract removal and lens implantation.",
+          "doc_img": "https://img.freepik.com/free-photo/attractive-young-male-nutriologist-lab-coat-smiling-against-white-background_662251-2960.jpg?w=2000"
         },
         {
-            "doc_id": 2,
-            "name": "Greg S. Grinstead",
-            "specialize": "Neurology",
-            "doc_img": "https://i.ibb.co/gW26qY2/02.jpg"
+          "doc_id": 2,
+          "name": "Dr. Sarah Johnson",
+          "specialize": "LASIK Surgery",
+          "appointmentPrice": 350,
+          "doctorDescription": "Dr. Sarah Johnson is an experienced LASIK surgeon providing laser vision correction for various refractive errors.",
+          "doc_img": "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg?w=2000"
         },
         {
-            "doc_id": 3,
-            "name": "Roger K. Jackson",
-            "specialize": "Orthopedics",
-            "doc_img": "https://i.ibb.co/hsyxYVj/03.jpg"
+          "doc_id": 3,
+          "name": "Dr. Michael Brown",
+          "specialize": "Glaucoma Treatment",
+          "appointmentPrice": 150,
+          "doctorDescription": "Dr. Michael Brown is a specialist in diagnosing and managing glaucoma, offering personalized treatment plans.",
+          "doc_img": "https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=1200:*"
         },
         {
-            "doc_id": 4,
-            "name": "Frank T. Grimsley",
-            "specialize": "Neurology",
-            "doc_img": "https://i.ibb.co/86xBJSh/04.jpg"
+          "doc_id": 4,
+          "name": "Dr. Emily Davis",
+          "specialize": "Retinal Surgery",
+          "appointmentPrice": 400,
+          "doctorDescription": "Dr. Emily Davis is an expert in retinal surgeries, specializing in retinal detachment repair and macular hole surgery.",
+          "doc_img": "https://thevideoink.com/wp-content/uploads/2021/11/wysiwyg-uploads_1569586526901-doctor.jpg"
         },
         {
-            "doc_id": 5,
-            "name": "Rudolph V. Spitler",
-            "specialize": "Cardiology",
-            "doc_img": "https://i.ibb.co/hWD7NVx/05.jpg"
+          "doc_id": 5,
+          "name": "Dr. Daniel Wilson",
+          "specialize": "Corneal Transplant",
+          "appointmentPrice": 500,
+          "doctorDescription": "Dr. Daniel Wilson is a skilled corneal surgeon providing corneal transplant surgeries for patients with corneal diseases.",
+          "doc_img": "https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
         },
         {
-            "doc_id": 6,
-            "name": "Erik R. Faulkner",
-            "specialize": "Cardiology",
-            "doc_img": "https://i.ibb.co/hYWtLy1/06.jpg"
+          "doc_id": 6,
+          "name": "Dr. Jennifer Thompson",
+          "specialize": "Pediatric Ophthalmology",
+          "appointmentPrice": 250,
+          "doctorDescription": "Dr. Jennifer Thompson specializes in the diagnosis and treatment of eye disorders in children and infants.",
+          "doc_img": "https://nationaltoday.com/wp-content/uploads/2021/06/National-Call-Your-Doctor-Day.jpg"
         },
         {
-            "doc_id": 7,
-            "name": "Phillip L. Williams",
-            "specialize": "Neurology",
-            "doc_img": "https://i.ibb.co/dPtTnys/07.jpg"
+          "doc_id": 7,
+          "name": "Dr. Robert Anderson",
+          "specialize": "Refractive Lens Exchange",
+          "appointmentPrice": 450,
+          "doctorDescription": "Dr. Robert Anderson offers refractive lens exchange procedures for patients seeking clear vision.",
+          "doc_img": "https://firstresponse.ae/wp-content/uploads/2021/05/04.jpg"
         },
         {
-            "doc_id": 8,
-            "name": "Johnny R. Atterberry",
-            "specialize": "Orthopedics",
-            "doc_img": "https://i.ibb.co/ypmBR9k/08.jpg"
+          "doc_id": 8,
+          "name": "Dr. Elizabeth Wilson",
+          "specialize": "Dry Eye Treatment",
+          "appointmentPrice": 100,
+          "doctorDescription": "Dr. Elizabeth Wilson specializes in diagnosing and treating dry eye syndrome using advanced therapies.",
+          "doc_img": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?cs=srgb&dl=pexels-thirdman-5327585.jpg&fm=jpg"
         },
         {
-            "doc_id": 9,
-            "name": "Michael I. Johnson",
-            "specialize": "Medecine",
-            "doc_img": "https://i.ibb.co/nj8qcCS/09.jpg"
+          "doc_id": 9,
+          "name": "Dr. Christopher Hill",
+          "specialize": "Ocular Prosthetics",
+          "appointmentPrice": 300,
+          "doctorDescription": "Dr. Christopher Hill is an expert in creating custom ocular prosthetics for patients who have lost an eye.",
+          "doc_img": "https://cdn-japantimes.com/wp-content/uploads/2018/10/p17-brasor-doctors-a-20181014.jpg"
+        },
+        {
+          "doc_id": 10,
+          "name": "Dr. Samantha Turner",
+          "specialize": "Strabismus Surgery",
+          "appointmentPrice": 350,
+          "doctorDescription": "Dr. Samantha Turner specializes in correcting eye misalignment through surgical procedures.",
+          "doc_img": "https://media.istockphoto.com/id/1211584670/photo/portrait-of-female-doctor-in-her-medical-office.jpg?s=612x612&w=0&k=20&c=pVSNOVM8X9p00pakCuckloJqoartxA6RoAfMlLbDTOg="
         }
-    ]
+      ]
+      
 }
