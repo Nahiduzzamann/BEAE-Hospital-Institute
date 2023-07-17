@@ -27,7 +27,14 @@ const Home = () => {
             </Container>
             <OurExperts></OurExperts>
             <Box sx={{ p: 5, mb: 2, alignItems: 'center' }}>
-                <Typography sx={{ textAlign: "center" }} variant="h5"> <SubscriptionsIcon sx={{ color: 'primary.main', mr: 1, my: 0.5 }} /> Subscribe for our latest services and details</Typography>
+                <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} variant="h5">
+                    <SubscriptionsIcon
+                        sx={{ color: 'primary.main', mr: 1, }}
+                    />
+                    <p>
+                        Subscribe for our latest services and details
+                    </p>
+                </Typography>
 
                 <Box sx={{ display: { xs: 'flex-wrap', md: 'flex' }, p: 2, mt: 1, mx: 'auto', minWidth: "70%" }}>
                     <Box sx={{ display: 'flex', alignItems: 'flex-end', mb: 2, mx: 'auto', minWidth: "70%" }}>
