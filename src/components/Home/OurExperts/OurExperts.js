@@ -21,7 +21,7 @@ const OurExperts = () => {
     }, [experts]);
 
     return (
-        <Box sx={{ bgcolor: '#fce4ec', color: 'primary.main', p: 2, mb: 2, textAlign: "center" }}>
+        <Box sx={{ bgcolor: '#000000', color: 'primary.main', p: 2, mb: 2, textAlign: "center" }}>
             <Container maxWidth="xl">
                 <Typography sx={{ mt: 2, mb: 2, fontWeight: 600 }}
                     variant='h6'
@@ -41,9 +41,11 @@ const OurExperts = () => {
                                 <Grid key={experts.doc_id} item xs={12} sm={6} md={4} lg={3} sx={{ mx: 'auto' }}>
                                     <Card sx={{
                                         mx: 'auto',
+                                        padding:'20px',
                                         boxShadow: 10,
                                         maxWidth: 345, transition: '0.5s all ease-in-out', ':hover': {
-                                            color: '#e91e63',
+                                            backgroundColor:'#f6c60d',
+                                            color: '#fff',
                                             boxShadow: 1
                                         }
                                         , 'img': { transition: '0.5s all ease-in-out' },
