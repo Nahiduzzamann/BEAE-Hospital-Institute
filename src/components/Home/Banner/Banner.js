@@ -36,7 +36,7 @@ const Banner = () => {
         {
             name: "You are just one click away from your healthy life",
             description: "Probably the most random thing you have ever seen!",
-            img: "https://img.freepik.com/free-photo/man-having-eye-sight-check-ophthalmology-clinic_23-2149082461.jpg?w=2000"
+            img: "https://helios-i.mashable.com/imagery/articles/03UELV27iUen05vboCcW4q7/images-3.fill.size_2000x1227.v1611684244.jpg"
         },
         {
             name: "Consult with experts Online 24/7",
