@@ -6,7 +6,8 @@ const About = () => {
         <Box id='about' sx={{
             display: 'flex',
             flexDirection: 'column',
-            p:8
+            pt:8,
+            pb:8
         }}
             points="0,100 50,00, 100,100" >
             <Container maxWidth="xl">
