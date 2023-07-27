@@ -66,6 +66,7 @@ const Login = () => {
             display: 'flex',
             flexDirection: 'column',
             minHeight: '100vh',
+            backgroundColor: '#5e5c57'
         }} >
             <Container id='login' maxWidth="xl">
                 {

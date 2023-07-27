@@ -14,17 +14,18 @@ import { Link } from 'react-router-dom';
 import GoogleButton from 'react-google-button';
 import useAuth from '../../../../Hooks/useAuth';
 import UserProfile from '../UserProfile/UserProfile';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 
 const Register = () => {
 
     const { user, singInUsingGoogle, handleConfirmPass, handleRegister, handleUserName, handleEmail, handlePass, error, toggleLogin } = useAuth();
-
+    
     return (
-        <Container component="main" maxWidth="xs">
+        <div style={{backgroundColor: '#5e5c57'}}>
+            <Container component="main" maxWidth="xs">
             <CssBaseline />
             {
                 user?.email ? <>
@@ -32,8 +33,8 @@ const Register = () => {
                 </> : <>
                     <Box
                         sx={{
-                            marginTop: 8,
-                            marginBottom: 8,
+                            paddingTop: 10,
+                            paddingBottom: 10,
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
@@ -165,6 +166,7 @@ const Register = () => {
                 </>
             }
         </Container>
+        </div>
     );
 };
 
