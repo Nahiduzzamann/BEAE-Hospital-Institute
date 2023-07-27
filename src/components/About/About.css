@@ -1,0 +1,37 @@
+
+.header {
+    margin-top: 20px;
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .image {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  }
+  

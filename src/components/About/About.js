@@ -1,13 +1,43 @@
 import { Box, Container, Typography } from '@mui/material';
 import React from 'react';
-
+import './About.css';
 const About = () => {
+    const VisionMissionSection = () => {
+        return (
+            <section className="section">
+                <div className="content">
+                    <h2>Vision</h2>
+                    <p>
+                        To establish as a Center of Excellence in Eye Care to eliminate avoidable blindness and vision impairment, in order to support people to become productive and contribute to the socio-economic growth of their societies.
+                    </p>
+                </div>
+                <img className="image" src="https://www.prophylacticaqua.com/img/resources/vission.png" alt="Vision Image" />
+            </section>
+        );
+    };
+
+    const MissionSection = () => {
+        return (
+            <section className="section" style={{ backgroundColor: '#f0f0f0' }}>
+                <img className="image" src="https://www.moveaheadmedia.com.au/wp-content/uploads/2020/07/mission-image-01.jpg" alt="Mission Image" />
+                <div className="content">
+                    <h2>Mission</h2>
+                    <ul>
+                        <li>Patient Care - To ensure qualitative and quantitative eye care affordable to all.</li>
+                        <li>Community Outreach - To work with community people’s participation.</li>
+                        <li>Education & Training - To develop skilled human resource in the eye care sector.</li>
+                        <li>Research - To conduct research to intervene both the prevalence and incidence of eye diseases.</li>
+                    </ul>
+                </div>
+            </section>
+        );
+    };
     return (
         <Box id='about' sx={{
             display: 'flex',
             flexDirection: 'column',
-            pt:8,
-            pb:8
+            pt: 8,
+            pb: 8
         }}
             points="0,100 50,00, 100,100" >
             <Container maxWidth="xl">
@@ -28,7 +58,11 @@ const About = () => {
 
                     Be sure to leave a review on <strong>BEAE Hospital & Institute</strong> of any hospital you’ve visited, whether you’ve had a negative or a positive experience. Share your suggestions about writing hospital reviews in the comments below.
                 </Typography>
-
+                <div>
+                    <h1 className='header'>Vision and Mission</h1>
+                    <VisionMissionSection />
+                    <MissionSection />
+                </div>
             </Container>
         </Box>
     );
