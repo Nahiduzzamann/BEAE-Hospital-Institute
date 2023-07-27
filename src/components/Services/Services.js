@@ -35,10 +35,12 @@ const Services = () => {
                                 <Grid key={service.id} item xs={12} sm={6} md={6} lg={4}>
                                     <Card sx={{
                                         mx: 'auto',
-                                        padding:'20px',
+                                        position: 'relative',
+                                        padding: '20px',
+                                        height: '450px',
                                         maxWidth: 345, transition: '0.5s all ease-in-out', ':hover': {
                                             boxShadow: 10,
-                                            backgroundColor:'#f6c60d',
+                                            backgroundColor: '#f6c60d',
                                             color: '#fff',
                                         }
                                         , 'img': { transition: '0.5s all ease-in-out' },
@@ -56,7 +58,7 @@ const Services = () => {
                                             <CardContent sx={{ display: 'flex', flexWrap: 'wrap', mx: 'auto', my: 2 }}>
                                                 <CardMedia
                                                     component="img"
-                                                    sx={{ width: 40,borderRadius:'100%', mr: 1, mx: 'auto' }}
+                                                    sx={{ width: 40, borderRadius: '100%', mr: 1, mx: 'auto' }}
                                                     image={service?.icon}
                                                     alt="service icon"
                                                 />
@@ -66,10 +68,13 @@ const Services = () => {
                                             </CardContent>
                                         </CardActionArea>
 
-                                        <CardActions>
+                                        <CardActions >
 
-                                            <Typography sx={{ mx: 2, p: 2, textAlign: "end" }} >
-                                                <Button
+                                            <Typography sx={{  p: 2, textAlign: "end" }} >
+                                                <Button sx={{
+                                                    position: 'absolute', bottom: '10px', left: '50%'
+                                                    
+                                                }}
                                                     onClick={() => { ServiceDetails(service.id) }}
                                                     variant="contained" color="primary" startIcon={<ReadMoreIcon />}>
                                                     See More Details...
