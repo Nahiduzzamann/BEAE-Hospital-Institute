@@ -9,6 +9,7 @@ import Whyus from './Whyus/Whyus';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EmailIcon from '@mui/icons-material/Email';
 import swal from 'sweetalert';
+import Section from '../Info/Info';
 
 const Home = () => {
     //swal alert
@@ -21,6 +22,7 @@ const Home = () => {
     return (
         <div id='home'>
             <Banner></Banner>
+            <Section></Section>
             <Whyus></Whyus>
             <Container className='content-container' maxWidth="xl">
                 <About></About>
