@@ -112,7 +112,7 @@ const Register = () => {
                                     </Typography>
 
                                     <FormControlLabel
-                                        control={<Checkbox value="allowExtraEmails" color="primary" />}
+                                        control={<Checkbox style={{backgroundColor:'#f6c60d', marginRight:'10px'}} value="allowExtraEmails" color="primary" />}
                                         label="I want to receive inspiration, marketing promotions and updates via email."
                                     />
 

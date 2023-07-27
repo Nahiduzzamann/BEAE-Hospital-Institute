@@ -65,7 +65,7 @@ const OurExperts = () => {
 
                                             <CardContent sx={{ display: 'flex', mx: 'auto', my: 2 }}>
 
-                                                <Typography gutterBottom variant="h5" component="div">
+                                                <Typography gutterBottom variant="h6" component="div">
                                                     Specialist in {experts.specialize}
                                                 </Typography>
                                             </CardContent>

@@ -44,7 +44,7 @@ const Banner = () => {
             img: "https://helpmesee.org/wp-content/uploads/2021/06/HelpMeSee-Eye-Hospital-of-Wenzhou-Medical-University.png"
         },
         {
-            name: "Check Your Health Condition Regularly",
+            name: "Check Your Eye Health Condition Regularly",
             description: "Upto date with your health condition prevention is always better than cure",
             img: "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/PBOXADJYKBA7LDUOHFBWEWLNE4.jpg"
         }

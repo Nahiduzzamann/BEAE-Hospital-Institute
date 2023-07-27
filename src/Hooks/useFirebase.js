@@ -61,16 +61,17 @@ const useFirebase = () => {
     }
 
     const handleRegister = e => {
-        e.preventDefault();//prevent default ke upore na dile error er dile seta dhorar age reload hoye jabe
+        e.preventDefault();
         //password length validation
         if (password.length < 6) {
             setError('Password should be at least 6 characters');
             return;
         }
         //password regex test
-        if (!/(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/.test(password)) {
-            setError('Password should be minimum 6 characters, at least one capital letter and one number');
+        if (!/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\da-zA-Z]).+$/.test(password)) {
+            setError('Password should be minimum 6 characters, at least one capital letter,one small letter, one character and one number');
             return;
+
         }
         isLogin ? loginRegisterUser(mail, password) : registeruser(mail, password);
 
