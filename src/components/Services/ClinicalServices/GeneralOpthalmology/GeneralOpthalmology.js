@@ -4,7 +4,7 @@ import SubNavBar from '../NavBar/SubNavBar';
 
 const GeneralOpthalmology = () => {
     return (
-        <div>
+        <div className='bg-gray-100'>
             <h2 className='text-lg md:text-2xl lg:text-4xl text-center font-bold p-5'>Services of General Opthalmology </h2>
             {/* Navigation section */}
             <SubNavBar></SubNavBar>

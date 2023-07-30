@@ -70,7 +70,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#cataract"
+                            to="/services/clinical/Cataract"
                             className="text-white hover:text-gray-300"
                         >
                             Cataract
@@ -128,7 +128,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#cataract"
+                            to="/services/clinical/Cataract"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >
