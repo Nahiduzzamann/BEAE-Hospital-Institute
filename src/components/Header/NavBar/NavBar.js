@@ -59,7 +59,7 @@ const Navbar = () => {
                 onMouseLeave={() => setShowBox(false)}
             >
                 {showBox && (
-                    <div className=" absolute top-16 right-1 bg-[#007bff8f] rounded-lg shadow-md opacity-100 transition-opacity">
+                    <div className=" absolute top-16 right-1 bg-[#007bffbb] rounded-lg shadow-md opacity-100 transition-opacity">
                         <HashLink smooth to="/services#services" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
                             doctors Services
                         </HashLink>

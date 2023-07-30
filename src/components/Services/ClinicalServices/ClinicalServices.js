@@ -1,9 +1,13 @@
 import './ClinicalServices.css'
 import React from 'react';
+import SubNavBar from './NavBar/SubNavBar';
 
 const ClinicalServices = () => {
     return (
         <div className="bg-gray-100">
+            <h2 className='text-lg md:text-2xl lg:text-4xl text-center font-bold p-5'>Services of Clinical </h2>
+            {/* Navigation section */}
+            <SubNavBar></SubNavBar>
             {/* OPD Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
