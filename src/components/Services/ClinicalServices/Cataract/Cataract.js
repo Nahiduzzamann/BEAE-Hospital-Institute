@@ -13,7 +13,7 @@ const Cataract = () => {
                         <img
                             src='https://www.eyesurgeonssa.com.au/images/cataract_progression.jpeg'
                             alt="Cataract"
-                            className="rounded-lg w-full h-64 object-cover shadow-md"
+                            className="rounded-lg w-full h-64 object-fill shadow-md"
                         />
                     </div>
                     <div className="md:pl-4">

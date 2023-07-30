@@ -19,7 +19,7 @@ const GeneralOpthalmology = () => {
                 </div>
                 <div>
                     <p className="text-xl mb-4">
-                        General Ophthalmology Dept. at Deep Eye Care Foundation provides
+                        General Ophthalmology Dept. at BEAE Hospital & Institute provides
                         comprehensive eye care, from examinations and vision correction to
                         the diagnosis and treatment of diseases through medication and
                         surgery.

@@ -22,6 +22,7 @@ import ClinicalServices from './components/Services/ClinicalServices/ClinicalSer
 import GeneralOpthalmology from './components/Services/ClinicalServices/GeneralOpthalmology/GeneralOpthalmology';
 import PediatricOpthalmology from './components/Services/ClinicalServices/PediatricOpthalmology/PediatricOpthalmology';
 import Cataract from './components/Services/ClinicalServices/Cataract/Cataract';
+import RetinaVitreous from './components/Services/ClinicalServices/RetinaVitreous/RetinaVitreous';
 
 // custom style for this application
 export const myTheme = createTheme({
@@ -95,6 +96,9 @@ function App() {
               </Route>
               <Route exact path='/services/clinical/Cataract'>
                 <Cataract></Cataract>
+              </Route>
+              <Route exact path='/services/clinical/RetinaVitreous'>
+                <RetinaVitreous></RetinaVitreous>
               </Route>
               <PrivetRoute exact path='/services/details/:servId'>
                 <ServiceDetails></ServiceDetails>

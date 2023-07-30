@@ -77,7 +77,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#retina-vitreous"
+                            to="/services/clinical/RetinaVitreous"
                             className="text-white hover:text-gray-300"
                         >
                             Retina & Vitreous
@@ -136,7 +136,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#retina-vitreous"
+                            to="/services/clinical/RetinaVitreous"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >
