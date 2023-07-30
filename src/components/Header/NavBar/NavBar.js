@@ -1,12 +1,12 @@
 import { AppBar, Avatar, Box, Button, Container, Divider, IconButton, Menu, MenuItem, Toolbar, Tooltip, Typography } from '@mui/material';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import HealingTwoToneIcon from '@mui/icons-material/HealingTwoTone';
 import './NavBar.css'
 import useAuth from '../../../Hooks/useAuth';
 import { useHistory } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { FiChevronDown } from 'react-icons/fi';
 
 // const pages = ['home', 'services', 'doctors', 'Appointment', 'about', 'login'];
 const settings = ['Profile', 'Logout'];
@@ -46,6 +46,32 @@ const Navbar = () => {
             history.push("/profile");
         }
     };
+    const [showBox, setShowBox] = useState(false);
+
+    const ServicesBox = () => {
+        // State to manage the visibility of the box
+        // const [showBox, setShowBox] = useState(false);
+
+        return (
+            <div
+                className="relative"
+                onMouseEnter={() => setShowBox(true)}
+                onMouseLeave={() => setShowBox(false)}
+            >
+                {showBox && (
+                    <div className=" absolute top-12 -right-5 bg-[#007bff8f] p-2 rounded-lg shadow-md opacity-100 transition-opacity">
+                        <HashLink smooth to="/services#services" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                            doctors Services
+                        </HashLink>
+                        <HashLink smooth to="/" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                            Clinical Services
+                        </HashLink>
+                    </div>
+                )}
+            </div>
+        );
+    };
+
     return (
         <Box sx={{ mt: 8 }} >
             <AppBar position="fixed" color="primary" sx={{ top: 0, bottom: 'auto' }} >
@@ -105,7 +131,13 @@ const Navbar = () => {
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/services#services'
-                                >Services
+                                >doctors Services
+                                </MenuItem>
+                                <MenuItem
+                                    bgcolor="#fff"
+                                    component={HashLink}
+                                    smooth to='/'
+                                >Clinical Services
                                 </MenuItem>
 
                                 <MenuItem
@@ -141,7 +173,7 @@ const Navbar = () => {
                         </Box>
 
                         <Typography
-                        color={'#fff'}
+                            color={'#fff'}
                             variant="h6"
                             align='center'
                             component="div"
@@ -163,14 +195,20 @@ const Navbar = () => {
                                 >Home
                                 </Button></HashLink>
 
+
                             <HashLink
                                 className="text-style text-style-fullscrn "
-                                smooth to='/services#services'>
+                                // smooth to='/services#services'
+                                onMouseEnter={() => setShowBox(true)}
+                                onMouseLeave={() => setShowBox(false)}
+                            >
                                 <Button
-
                                     sx={{ my: 2, color: '#fff', display: 'block' }}
                                 >Services
-                                </Button></HashLink>
+                                    <FiChevronDown className="text-center float-right mt-[5px] ml-[2px]" />
+                                </Button>
+                            </HashLink>
+                            <ServicesBox />
 
                             <HashLink
                                 className="text-style text-style-fullscrn "
