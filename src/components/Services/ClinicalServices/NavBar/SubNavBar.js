@@ -56,7 +56,7 @@ const SubNavBar = () => {
                     <div className="hidden lg:flex space-x-8">
                         <HashLink
                             smooth
-                            to="/#general-opthalmology"
+                            to="/services/clinical/GeneralOpthalmology"
                             className="text-white hover:text-gray-300"
                         >
                             General Opthalmology
@@ -112,7 +112,7 @@ const SubNavBar = () => {
                     >
                         <HashLink
                             smooth
-                            to="/#general-opthalmology"
+                            to="/services/clinical/GeneralOpthalmology"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >
