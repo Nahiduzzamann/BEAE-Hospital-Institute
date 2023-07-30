@@ -63,7 +63,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#pediatric-opthalmology"
+                            to="/services/clinical/PediatricOpthalmology"
                             className="text-white hover:text-gray-300"
                         >
                             Pediatric Opthalmology
@@ -120,7 +120,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#pediatric-opthalmology"
+                            to="/services/clinical/PediatricOpthalmology"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >

@@ -20,6 +20,7 @@ import ServiceDetails from './components/Services/ServiceDetails/ServiceDetails'
 import PrivetRoute from './PrivetRoute/PrivetRoute';
 import ClinicalServices from './components/Services/ClinicalServices/ClinicalServices';
 import GeneralOpthalmology from './components/Services/ClinicalServices/GeneralOpthalmology/GeneralOpthalmology';
+import PediatricOpthalmology from './components/Services/ClinicalServices/PediatricOpthalmology/PediatricOpthalmology';
 
 // custom style for this application
 export const myTheme = createTheme({
@@ -87,6 +88,9 @@ function App() {
               </Route>
               <Route exact path='/services/clinical/GeneralOpthalmology'>
                 <GeneralOpthalmology></GeneralOpthalmology>
+              </Route>
+              <Route exact path='/services/clinical/PediatricOpthalmology'>
+                <PediatricOpthalmology></PediatricOpthalmology>
               </Route>
               <PrivetRoute exact path='/services/details/:servId'>
                 <ServiceDetails></ServiceDetails>
