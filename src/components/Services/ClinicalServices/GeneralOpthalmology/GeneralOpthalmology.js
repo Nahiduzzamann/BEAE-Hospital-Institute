@@ -41,6 +41,7 @@ const GeneralOpthalmology = () => {
                     </p>
                 </div>
             </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/US_Navy_080607-N-9689V-008_Cmdr._Kenneth_Kubis_and_U.S._Air_Force_Capt._Tighe_Richardson_use_an_operating_microscope_while_performing_cataract_eye_surgery_to_return_sight_to_Marylin_Kansi%2C_a_12-year-old_girl_from_Cotabato.jpg" alt="Out Patient Department" className="w-full mb-8 mt-2 rounded-lg" />
             </div>
         </div>
     );
