@@ -59,11 +59,11 @@ const Navbar = () => {
                 onMouseLeave={() => setShowBox(false)}
             >
                 {showBox && (
-                    <div className=" absolute top-12 -right-5 bg-[#007bff8f] p-2 rounded-lg shadow-md opacity-100 transition-opacity">
+                    <div className=" absolute top-16 right-1 bg-[#007bff8f] rounded-lg shadow-md opacity-100 transition-opacity">
                         <HashLink smooth to="/services#services" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
                             doctors Services
                         </HashLink>
-                        <HashLink smooth to="/" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                        <HashLink smooth to="/services/clinical" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
                             Clinical Services
                         </HashLink>
                     </div>
@@ -136,7 +136,7 @@ const Navbar = () => {
                                 <MenuItem
                                     bgcolor="#fff"
                                     component={HashLink}
-                                    smooth to='/'
+                                    smooth to='/services/clinical'
                                 >Clinical Services
                                 </MenuItem>
 

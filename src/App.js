@@ -18,6 +18,7 @@ import Doctors from './components/Services/Doctors/Doctors';
 import Appointment from './components/Services/Appointment/Appointment';
 import ServiceDetails from './components/Services/ServiceDetails/ServiceDetails';
 import PrivetRoute from './PrivetRoute/PrivetRoute';
+import ClinicalServices from './components/Services/ClinicalServices/ClinicalServices';
 
 // custom style for this application
 export const myTheme = createTheme({
@@ -79,6 +80,9 @@ function App() {
               </PrivetRoute>
               <Route exact path='/services'>
                 <Services></Services>
+              </Route>
+              <Route exact path='/services/clinical'>
+                <ClinicalServices></ClinicalServices>
               </Route>
               <PrivetRoute exact path='/services/details/:servId'>
                 <ServiceDetails></ServiceDetails>
