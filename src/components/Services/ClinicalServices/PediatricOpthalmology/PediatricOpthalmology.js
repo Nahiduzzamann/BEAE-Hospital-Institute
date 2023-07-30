@@ -62,7 +62,7 @@ const PediatricOpthalmology = () => {
                             <img
                                 src="https://visioneyebd.org/assets_admin/img/doctor/dr-mahmooda-rahman.png" // Replace with the actual image path of the ophthalmologist
                                 alt="Pediatric Ophthalmologist 1"
-                                className="rounded-lg mb-4"
+                                className="rounded-lg mb-4 object-cover"
                             />
                             <h3 className="text-xl font-semibold">Dr. John Doe</h3>
                             <p className="text-lg">Pediatric Ophthalmologist</p>
@@ -72,7 +72,7 @@ const PediatricOpthalmology = () => {
                             <img
                                 src="https://www.manavhospital.com/assets/img/dr-rajat.jpg" // Replace with the actual image path of the ophthalmologist
                                 alt="Pediatric Ophthalmologist 2"
-                                className="rounded-lg mb-4"
+                                className="rounded-lg mb-4 object-cover"
                             />
                             <h3 className="text-xl font-semibold">Dr. Jane Smith</h3>
                             <p className="text-lg">Pediatric Ophthalmologist</p>
