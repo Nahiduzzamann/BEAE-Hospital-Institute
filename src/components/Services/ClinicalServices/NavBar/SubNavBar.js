@@ -91,7 +91,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#cornea"
+                            to="/services/clinical/cornea"
                             className="text-white hover:text-gray-300"
                         >
                             Cornea
@@ -152,7 +152,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#cornea"
+                            to="/services/clinical/cornea"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >
