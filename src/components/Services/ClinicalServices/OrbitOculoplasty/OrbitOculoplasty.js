@@ -61,7 +61,7 @@ const OrbitOculoplasty = () => {
                 <div className="mt-12 mb-12">
                     <h2 className="text-3xl font-bold text-blue-900">Patient Care and Support</h2>
                     <p className="text-lg leading-relaxed mt-4">
-                        At Deep Eye Care Foundation, we prioritize patient care and support throughout the treatment
+                        At BEAE, we prioritize patient care and support throughout the treatment
                         journey. Our compassionate and caring team is dedicated to providing personalized care and
                         attention to each patient. From initial consultation to post-operative follow-ups, we strive
                         to make our patients feel comfortable and well-informed. We believe in building strong doctor-patient
