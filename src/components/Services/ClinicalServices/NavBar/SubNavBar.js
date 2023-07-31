@@ -84,7 +84,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#orbit-oculoplasty"
+                            to="/services/clinical/OrbitOculoplasty"
                             className="text-white hover:text-gray-300"
                         >
                             Orbit, Oculoplasty
@@ -144,7 +144,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#orbit-oculoplasty"
+                            to="/services/clinical/OrbitOculoplasty"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >
