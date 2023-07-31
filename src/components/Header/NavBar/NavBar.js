@@ -152,6 +152,12 @@ const Navbar = () => {
                                     smooth to='/appointment#appointment'
                                 >Appointment
                                 </MenuItem>
+                                <MenuItem
+                                    bgcolor="#fff"
+                                    component={HashLink}
+                                    smooth to='/education'
+                                >Education & Training
+                                </MenuItem>
 
                                 <MenuItem
                                     bgcolor="#fff"
@@ -226,7 +232,17 @@ const Navbar = () => {
 
                                     sx={{ my: 2, color: '#fff', display: 'block' }}
                                 >Appointment
-                                </Button></HashLink>
+                                </Button>
+                                </HashLink>
+                            <HashLink
+                                className="text-style text-style-fullscrn "
+                                smooth to='/education'>
+                                <Button
+
+                                    sx={{ my: 2, color: '#fff', display: 'block' }}
+                                >Education & Training
+                                </Button>
+                                </HashLink>
 
                             <HashLink
                                 className="text-style text-style-fullscrn "
