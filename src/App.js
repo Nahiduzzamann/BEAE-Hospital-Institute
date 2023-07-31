@@ -25,6 +25,7 @@ import Cataract from './components/Services/ClinicalServices/Cataract/Cataract';
 import RetinaVitreous from './components/Services/ClinicalServices/RetinaVitreous/RetinaVitreous';
 import OrbitOculoplasty from './components/Services/ClinicalServices/OrbitOculoplasty/OrbitOculoplasty';
 import Cornea from './components/Services/ClinicalServices/Cornea/Cornea';
+import Glaucoma from './components/Services/ClinicalServices/Glaucoma/Glaucoma';
 
 // custom style for this application
 export const myTheme = createTheme({
@@ -103,10 +104,13 @@ function App() {
                 <RetinaVitreous></RetinaVitreous>
               </Route>
               <Route exact path='/services/clinical/OrbitOculoplasty'>
-              <OrbitOculoplasty></OrbitOculoplasty>
+                <OrbitOculoplasty></OrbitOculoplasty>
               </Route>
               <Route exact path='/services/clinical/cornea'>
-             <Cornea></Cornea>
+                <Cornea></Cornea>
+              </Route>
+              <Route exact path='/services/clinical/glaucoma'>
+                <Glaucoma></Glaucoma>
               </Route>
               <PrivetRoute exact path='/services/details/:servId'>
                 <ServiceDetails></ServiceDetails>

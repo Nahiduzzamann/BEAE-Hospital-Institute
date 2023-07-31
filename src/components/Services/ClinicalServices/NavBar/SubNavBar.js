@@ -98,7 +98,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#glaucoma"
+                            to="/services/clinical/glaucoma"
                             className="text-white hover:text-gray-300"
                         >
                             Glaucoma
@@ -160,7 +160,7 @@ const SubNavBar = () => {
                         </HashLink>
                         <HashLink
                             smooth
-                            to="/#glaucoma"
+                            to="/services/clinical/glaucoma"
                             className="block text-white hover:text-gray-300"
                             onClick={toggleMobileMenu}
                         >
