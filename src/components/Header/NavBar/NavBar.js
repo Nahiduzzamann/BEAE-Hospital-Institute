@@ -124,6 +124,7 @@ const Navbar = () => {
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/home#home'
+                                    onClick={handleCloseNavMenu}
                                 >home
                                 </MenuItem>
 
@@ -131,12 +132,14 @@ const Navbar = () => {
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/services#services'
+                                    onClick={handleCloseNavMenu}
                                 >doctors Services
                                 </MenuItem>
                                 <MenuItem
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/services/clinical'
+                                    onClick={handleCloseNavMenu}
                                 >Clinical Services
                                 </MenuItem>
 
@@ -144,18 +147,21 @@ const Navbar = () => {
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/doctors#doctors'
+                                    onClick={handleCloseNavMenu}
                                 >Doctors
                                 </MenuItem>
                                 <MenuItem
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/appointment#appointment'
+                                    onClick={handleCloseNavMenu}
                                 >Appointment
                                 </MenuItem>
                                 <MenuItem
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/education'
+                                    onClick={handleCloseNavMenu}
                                 >Education & Training
                                 </MenuItem>
 
@@ -163,6 +169,7 @@ const Navbar = () => {
                                     bgcolor="#fff"
                                     component={HashLink}
                                     smooth to='/about#about'
+                                    onClick={handleCloseNavMenu}
                                 >About
                                 </MenuItem>
                                 {!user?.email &&
@@ -171,6 +178,7 @@ const Navbar = () => {
 
                                         component={HashLink}
                                         smooth to='/login#login'
+                                        onClick={handleCloseNavMenu}
                                     >Login
                                     </MenuItem>
                                 }
