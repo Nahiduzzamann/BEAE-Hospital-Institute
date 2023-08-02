@@ -59,12 +59,15 @@ const Navbar = () => {
                 onMouseLeave={() => setShowBox(false)}
             >
                 {showBox && (
-                    <div className=" absolute top-16 right-1 bg-[#3183db] rounded-lg shadow-md opacity-100 transition-opacity">
+                    <div className=" absolute w-40 top-16 -right-16 bg-[#3183db] rounded-lg shadow-md opacity-100 transition-opacity">
                         <HashLink smooth to="/services#services" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
-                            doctors Services
+                            Doctors Services
                         </HashLink>
                         <HashLink smooth to="/services/clinical" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
                             Clinical Services
+                        </HashLink>
+                        <HashLink smooth to="/services/support" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                            Support Services
                         </HashLink>
                     </div>
                 )}
@@ -133,7 +136,7 @@ const Navbar = () => {
                                     component={HashLink}
                                     smooth to='/services#services'
                                     onClick={handleCloseNavMenu}
-                                >doctors Services
+                                >Doctors Services
                                 </MenuItem>
                                 <MenuItem
                                     bgcolor="#fff"
@@ -141,6 +144,13 @@ const Navbar = () => {
                                     smooth to='/services/clinical'
                                     onClick={handleCloseNavMenu}
                                 >Clinical Services
+                                </MenuItem>
+                                <MenuItem
+                                    bgcolor="#fff"
+                                    component={HashLink}
+                                    smooth to='/services/support'
+                                    onClick={handleCloseNavMenu}
+                                >Support Services
                                 </MenuItem>
 
                                 <MenuItem
