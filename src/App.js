@@ -28,6 +28,7 @@ import Cornea from './components/Services/ClinicalServices/Cornea/Cornea';
 import Glaucoma from './components/Services/ClinicalServices/Glaucoma/Glaucoma';
 import EducationTraining from './components/EducationTraining/EducationTraining';
 import SupportService from './components/Services/SupportService/SupportService';
+import CommunityServices from './components/Services/CommunityServices/CommunityServices';
 
 // custom style for this application
 export const myTheme = createTheme({
@@ -98,6 +99,9 @@ function App() {
               </Route>
               <Route exact path='/services/support'>
                 <SupportService></SupportService>
+              </Route>
+              <Route exact path='/services/community'>
+                <CommunityServices></CommunityServices>
               </Route>
               <Route exact path='/services/clinical/GeneralOpthalmology'>
                 <GeneralOpthalmology></GeneralOpthalmology>

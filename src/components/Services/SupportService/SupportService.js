@@ -6,7 +6,7 @@ const SupportService = () => {
       {/* Spectacles Shop */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Spectacles Shop</h2>
-        {/* Add image here */}
+        <img className='object-fill w-full h-60 lg:h-80 rounded' src='https://howtostartanllc.com/images/business-ideas/business-idea-images/glasses-store.jpg'></img>
         <p className="mb-4">
           Selecting new spectacles can be daunting, whether you’re buying your
           first pair or you’ve worn them all your life. BEAE Hospital Spectacle Shop has
@@ -26,7 +26,7 @@ const SupportService = () => {
       {/* Medicine Shop */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Medicine Shop</h2>
-        {/* Add image here */}
+        <img className='object-fill w-full h-60 lg:h-80 rounded' src='https://i0.wp.com/mumbai7.com/wp-content/uploads/2022/03/dreamstime_s_123358596.jpg'></img>
         <p className="mb-4">
           BEAE Hospital medicine shop provides quick service on prescriptions for ocular
           drugs. This is not a retail pharmacy – it only provides medication on
@@ -39,7 +39,7 @@ const SupportService = () => {
       {/* Pathology Laboratory */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Pathology Laboratory</h2>
-        {/* Add image here */}
+        <img className='object-fill w-full h-60 lg:h-80 rounded' src='https://mahavirjainhospital.in/blog/wp-content/uploads/2023/03/Optimized-28-March-Pathology-laboratory-thumbnail.jpg'></img>
         <p className="mb-4">
           Laboratory in BEAE Hospital provides the necessary laboratory investigations
           required for patient care to ensure physical health status before eye
@@ -55,7 +55,7 @@ const SupportService = () => {
       {/* Biomedical Engineering Service */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Biomedical Engineering Service</h2>
-        {/* Add image here */}
+        <img className='object-fill w-full h-60 lg:h-80 rounded' src='https://www.medivest.com.my/images/bems-pix2.png'></img>
         <p className="mb-4">
           Quality eye care services usually be costly since equipment and
           instruments used for providing eye care services are exorbitantly
@@ -73,19 +73,21 @@ const SupportService = () => {
       {/* Low Vision Service */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Low Vision Service</h2>
-        {/* Add image here */}
-        <p className="mb-4">
-          Low vision exists when ordinary glasses, contact lenses, medical
-          treatment, and/or surgery cannot fully correct vision. Unlike total
-          blindness, people with low vision have some useful vision. However,
-          vision loss interferes with their ability to complete tasks of
-          everyday life – such as reading, recognizing faces, cooking, driving,
-          and differentiating color. Our comprehensive, multi-disciplinary
-          approach to care provides a team of specialists — from ophthalmologists
-          to optometrists to Orthoptists — who are trained to evaluate your
-          condition and to learn about tools and assistive technology available
-          to help you meet the demands of daily living.
-        </p>
+        <div className='flex'>
+          <p className="mb-4">
+            Low vision exists when ordinary glasses, contact lenses, medical
+            treatment, and/or surgery cannot fully correct vision. Unlike total
+            blindness, people with low vision have some useful vision. However,
+            vision loss interferes with their ability to complete tasks of
+            everyday life – such as reading, recognizing faces, cooking, driving,
+            and differentiating color. Our comprehensive, multi-disciplinary
+            approach to care provides a team of specialists — from ophthalmologists
+            to optometrists to Orthoptists — who are trained to evaluate your
+            condition and to learn about tools and assistive technology available
+            to help you meet the demands of daily living.
+          </p>
+          <img className='object-cover w-6/12 lg:h-80 rounded ml-10' src='https://image5.cdnsbg.com/cms.visiondirect.com.au/wp-content/uploads/sites/2/2022/06/snell.jpeg?func=bound&w=1024&h=1024'></img>
+        </div>
       </section>
 
       {/* Medical Record Department */}

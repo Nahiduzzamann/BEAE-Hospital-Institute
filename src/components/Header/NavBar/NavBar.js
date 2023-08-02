@@ -60,14 +60,17 @@ const Navbar = () => {
             >
                 {showBox && (
                     <div className=" absolute w-40 top-16 -right-16 bg-[#3183db] rounded-lg shadow-md opacity-100 transition-opacity">
-                        <HashLink smooth to="/services#services" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                        <HashLink smooth to="/services#services" className="block py-2 px-2 text-style-fullscrn text-[#fff]">
                             Doctors Services
                         </HashLink>
-                        <HashLink smooth to="/services/clinical" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                        <HashLink smooth to="/services/clinical" className="block py-2 px-2 text-style-fullscrn text-[#fff]">
                             Clinical Services
                         </HashLink>
-                        <HashLink smooth to="/services/support" className="block py-2 px-4 text-style-fullscrn text-[#fff]">
+                        <HashLink smooth to="/services/support" className="block py-2 px-2 text-style-fullscrn text-[#fff]">
                             Support Services
+                        </HashLink>
+                        <HashLink smooth to="/services/community" className="block py-2 px-2 text-style-fullscrn text-[#fff]">
+                            Community Services
                         </HashLink>
                     </div>
                 )}
@@ -151,6 +154,13 @@ const Navbar = () => {
                                     smooth to='/services/support'
                                     onClick={handleCloseNavMenu}
                                 >Support Services
+                                </MenuItem>
+                                <MenuItem
+                                    bgcolor="#fff"
+                                    component={HashLink}
+                                    smooth to='/services/community'
+                                    onClick={handleCloseNavMenu}
+                                >Community Services
                                 </MenuItem>
 
                                 <MenuItem
@@ -251,7 +261,7 @@ const Navbar = () => {
                                     sx={{ my: 2, color: '#fff', display: 'block' }}
                                 >Appointment
                                 </Button>
-                                </HashLink>
+                            </HashLink>
                             <HashLink
                                 className="text-style text-style-fullscrn "
                                 smooth to='/education'>
@@ -260,7 +270,7 @@ const Navbar = () => {
                                     sx={{ my: 2, color: '#fff', display: 'block' }}
                                 >Education & Training
                                 </Button>
-                                </HashLink>
+                            </HashLink>
 
                             <HashLink
                                 className="text-style text-style-fullscrn "
