@@ -21,7 +21,7 @@ const EducationTraining = () => {
                     <div className="p-6 md:w-1/2">
                         <h2 className="text-2xl font-bold text-blue-900 mb-4">BEAE Institute of Community Ophthalmology (DICO)</h2>
                         <p className="text-lg leading-relaxed">
-                            DICO is the training and research wing of BEAE Eye Care Foundation (DECF). Established
+                            DICO is the training and research wing of BEAE Eye Care Foundation (BEAE Hospital). Established
                             in 2017, DICO’s mission is to eliminate needless blindness and make a sustainable,
                             equitable, and comprehensive health care system. The Institute provides training for
                             ophthalmologists, Mid-level ophthalmic personnel (MLOP), Outreach workers, Healthcare
@@ -51,7 +51,7 @@ const EducationTraining = () => {
                             accuracy where necessary within the defined boundary of responsibilities. The students
                             having passed in SSC (science background preferred) are selected to undergo comprehensive
                             theoretical and practical training in Ophthalmic procedures. After successful completion
-                            of the course, we provide the opportunity for employment at DECF. The course is affiliated
+                            of the course, we provide the opportunity for employment at BEAE Hospital. The course is affiliated
                             by the State Medical Faculty of Bangladesh.
                         </p>
                     </div>

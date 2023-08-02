@@ -21,7 +21,7 @@ const PediatricOpthalmology = () => {
                         <p className="text-lg mb-4">
                             Pediatric ophthalmology is a subspecialty of ophthalmology that
                             concentrates on treating the various eye problems affecting
-                            children. At DECF, Pediatric Ophthalmology is taken quite
+                            children. At BEAE Hospital, Pediatric Ophthalmology is taken quite
                             seriously with expert consultants & surgeons working to ensure
                             that the vision of our future generation is well protected.
                         </p>
@@ -37,7 +37,7 @@ const PediatricOpthalmology = () => {
                             surgeries are done annually.
                         </p>
                         <p className="text-lg">
-                            The Pediatric Ophthalmology service at DECF started on 2012 with a
+                            The Pediatric Ophthalmology service at BEAE Hospital started on 2012 with a
                             noble aim of bringing back a smile to a child’s face. Over the
                             years, the department has grown to be a major referral center for
                             pediatric eye disorders. At present, this service involves the

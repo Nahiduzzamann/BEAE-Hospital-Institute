@@ -24,7 +24,7 @@ const Glaucoma = () => {
                             protect your eyes against serious vision loss. Neglected, this fell disease gradually
                             devours your field of vision from the periphery and ultimately leads to complete
                             blindness. That is why it is called the ‘silent killer of sight’ and is, at present, the
-                            second leading cause of blindness worldwide. Glaucoma service at DECF is managed by
+                            second leading cause of blindness worldwide. Glaucoma service at BEAE Hospital is managed by
                             trained & competent doctors. For better and efficient management, the hospital is
                             equipped with all necessary equipment’s like Visual Field Analyzer, Optical Coherence
                             Tomography, Pachymeter, Laser, etc. The glaucoma department deals with around 600 OPD
@@ -37,7 +37,7 @@ const Glaucoma = () => {
                 <div className="mt-12">
                     <h2 className="text-3xl font-bold text-blue-900">Early Detection and Prevention</h2>
                     <p className="text-lg leading-relaxed mt-4">
-                        At DECF, we emphasize the importance of early detection and prevention in managing
+                        At BEAE Hospital, we emphasize the importance of early detection and prevention in managing
                         glaucoma. Our team of experienced ophthalmologists and specialists is dedicated to
                         conducting regular screenings and comprehensive eye exams to identify early signs of
                         glaucoma. By detecting the condition at its early stages, we can implement effective

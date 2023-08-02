@@ -47,7 +47,7 @@ const Cornea = () => {
                 <div className="mt-12">
                     <h2 className="text-3xl font-bold text-blue-900">Assistive Devices and Technology</h2>
                     <p className="text-lg leading-relaxed mt-4">
-                        At DECF, we are committed to helping individuals with low vision regain independence and
+                        At BEAE Hospital, we are committed to helping individuals with low vision regain independence and
                         overcome visual challenges in their daily lives. Our specialists are well-versed in the latest
                         assistive devices and technologies that can significantly enhance visual capabilities and
                         make daily tasks more manageable. From magnification aids to electronic devices, we provide
