@@ -61,7 +61,7 @@ const Section = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
-        <img height={200} width={200} src="https://cdn-icons-png.flaticon.com/512/2394/2394306.png"></img>
+        <img height={200} width={200} src="https://www.orbiteyehospital.in/images/eye_icon.png"></img>
           <p className="font-bold text-[#00aaef] text-xl lg:text-2xl xl:text-3xl mt-4">
           Cataract Surgeries
           </p>
@@ -70,7 +70,7 @@ const Section = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
-        <img height={200} width={200} src="https://cdn-icons-png.flaticon.com/512/1231/1231600.png"></img>
+        <img height={200} width={200} src="https://lasik-treatment.com/assets/img/icons/lasik.png"></img>
           <p className="font-bold text-[#00aaef] text-xl lg:text-2xl xl:text-3xl mt-4">
           Ocular Surgeries
           </p>
