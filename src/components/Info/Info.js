@@ -45,16 +45,16 @@ const Section = () => {
     <div className="bg-[#111111] p-4 lg:p-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 container mx-auto">
         <div className="flex flex-col items-center justify-center rounded-lg ">
-          <img height={200} width={200} src="https://cdn.iconscout.com/icon/premium/png-256-thumb/establish-2777615-2304395.png"></img>
-          <p className="font-bold text-white text-xl lg:text-3xl">
+          <img height={200} width={200} src="https://cdn-icons-png.flaticon.com/512/2830/2830931.png"></img>
+          <p className="font-bold text-white text-xl lg:text-2xl xl:text-3xl">
             Established In
           </p>
           <p className="text-xl lg:text-2xl text-white">{establishedIn}</p>
         </div>
 
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
-        <img height={200} width={200} src="https://www.svgrepo.com/download/293561/vision.svg"></img>
-          <p className="font-bold text-white text-xl lg:text-3xl">
+        <img height={200} width={200} src="https://clinmedjournals.org/articles/ijocr/table-icon.png"></img>
+          <p className="font-bold text-white text-xl lg:text-2xl xl:text-3xl">
           Vision Corrected
           </p>
           <p className="text-xl lg:text-2xl text-white">{productionCapacity}</p>
@@ -62,7 +62,7 @@ const Section = () => {
 
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
         <img height={200} width={200} src="https://cdn-icons-png.flaticon.com/512/2394/2394306.png"></img>
-          <p className="font-bold text-white text-xl lg:text-3xl">
+          <p className="font-bold text-white text-xl lg:text-2xl xl:text-3xl">
           Cataract Surgeries
           </p>
           <p className="text-xl lg:text-2xl text-white">
@@ -71,7 +71,7 @@ const Section = () => {
         </div>
         <div className="flex flex-col items-center justify-center rounded-lg p-4">
         <img height={200} width={200} src="https://cdn-icons-png.flaticon.com/512/1231/1231600.png"></img>
-          <p className="font-bold text-white text-xl lg:text-3xl">
+          <p className="font-bold text-white text-xl lg:text-2xl xl:text-3xl">
           Ocular Surgeries
           </p>
           <p className="text-xl lg:text-2xl text-white">
