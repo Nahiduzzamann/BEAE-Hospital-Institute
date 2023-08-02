@@ -59,7 +59,7 @@ const About = () => {
                     Be sure to leave a review on <strong>BEAE Hospital & Institute</strong> of any hospital you’ve visited, whether you’ve had a negative or a positive experience. Share your suggestions about writing hospital reviews in the comments below.
                 </Typography>
                 <div>
-                    <h1 className='header'>Vision and Mission</h1>
+                    <h1 className='header text-[#00aaef] text-2xl'>Vision and Mission</h1>
                     <VisionMissionSection />
                     <MissionSection />
                 </div>
