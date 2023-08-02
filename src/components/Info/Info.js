@@ -8,31 +8,31 @@ const Section = () => {
 
   useEffect(() => {
     const increaseValues = () => {
-      let count = 1110;
+      let count = 111;
       const interval = setInterval(() => {
         count++;
         setEstablishedIn(count);
-        if (count === 2023) {
+        if (count === 1100) {
           clearInterval(interval);
         }
       }, 1);
 
-      let count1 = 1570;
+      let count1 = 157;
 
       const interval1 = setInterval(() => {
         count1++;
         setProductionCapacity(count1);
-        if (count1 === 3000) {
+        if (count1 === 1235) {
           clearInterval(interval1);
         }
       }, 1);
 
-      let count2 = 2750;
+      let count2 = 275;
 
       const interval2 = setInterval(() => {
         count2++;
         setManufacturingFacility(count2);
-        if (count2 === 3500) {
+        if (count2 === 1246) {
           clearInterval(interval2);
         }
       }, 1);
