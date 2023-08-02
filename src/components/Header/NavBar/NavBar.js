@@ -9,7 +9,7 @@ import { HashLink } from 'react-router-hash-link';
 import { FiChevronDown } from 'react-icons/fi';
 
 // const pages = ['home', 'services', 'doctors', 'Appointment', 'about', 'login'];
-const settings = ['Profile', 'Logout'];
+const settings = ['Go Profile', 'Logout'];
 
 const Navbar = () => {
     // authentication 
@@ -41,7 +41,7 @@ const Navbar = () => {
         if (userEvent === 'Logout') {
             logout();
         }
-        else if (userEvent === 'Profile') {
+        else if (userEvent === 'Go Profile') {
             console.log('ok');
             history.push("/profile");
         }
@@ -322,7 +322,9 @@ const Navbar = () => {
                                     <Divider />
                                     {settings.map((setting) => (
                                         <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                            <Typography onClick={handleUserControl} textAlign="center">{setting}</Typography>
+                                            <Typography 
+                                            onClick={handleUserControl} textAlign="center">{setting}
+                                            </Typography>
                                         </MenuItem>
                                     ))}
                                 </Menu>
